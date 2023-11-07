@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/mayank50444/Seller.git" }
 
   # spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = ["Seller/**/*.{h,m,}","View/*.{swift}"]
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
